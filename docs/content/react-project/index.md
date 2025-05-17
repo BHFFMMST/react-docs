@@ -35,7 +35,36 @@ Moodflix je izgrađen korištenjem modernog React ekosistema i alata za razvoj b
 
 Ispod se nalazi prikaz direktorijske strukture aplikacije **Moodflix** sa kratkim opisom svakog direktorija i fajla.
 
-moodflix/├── public/ # Javne datoteke (favicon, index.html, itd.)├── src/ # Glavni izvorni kod aplikacije│ ├── assets/ # Slike, ikone i drugi medijski fajlovi│ │ └── react.svg│ ├── common/ # Zajedničke varijable i konstante│ │ └── constants.js│ ├── components/ # Reusable komponente po sekcijama│ │ ├── Footer/│ │ │ └── Footer.jsx│ │ ├── Hero/│ │ │ └── Hero.jsx│ │ ├── Movie/│ │ │ ├── Movie.jsx│ │ │ └── MovieList.jsx│ │ └── Navbar/│ │ └── Navbar.jsx│ ├── pages/ # Glavne stranice aplikacije│ │ ├── Home.jsx│ │ └── MovieList.jsx│ ├── App.jsx # Root komponenta aplikacije│ ├── main.jsx # Ulazna tačka aplikacije│ └── index.css # Globalni CSS├── .gitignore├── index.html # Glavni HTML fajl├── package.json # Konfiguracija paketa i zavisnosti├── postcss.config.js├── tailwind.config.js # Tailwind konfiguracija├── vite.config.js # Vite konfiguracija└── README.md
+moodflix/
+├── public/ # Javne datoteke (favicon, index.html, itd.)
+├── src/ # Glavni izvorni kod aplikacije
+│ ├── assets/ # Slike, ikone i drugi medijski fajlovi
+│ │ └── react.svg
+│ ├── common/ # Zajedničke varijable i konstante
+│ │ └── constants.js
+│ ├── components/ # Reusable komponente po sekcijama
+│ │ ├── Footer/
+│ │ │ └── Footer.jsx
+│ │ ├── Hero/
+│ │ │ └── Hero.jsx
+│ │ ├── Movie/
+│ │ │ ├── Movie.jsx
+│ │ │ └── MovieList.jsx
+│ │ └── Navbar/
+│ │ └── Navbar.jsx
+│ ├── pages/ # Glavne stranice aplikacije
+│ │ ├── Home.jsx
+│ │ └── MovieList.jsx
+│ ├── App.jsx # Root komponenta aplikacije
+│ ├── main.jsx # Ulazna tačka aplikacije
+│ └── index.css # Globalni CSS
+├── .gitignore
+├── index.html # Glavni HTML fajl
+├── package.json # Konfiguracija paketa i zavisnosti
+├── postcss.config.js
+├── tailwind.config.js # Tailwind konfiguracija
+├── vite.config.js # Vite konfiguracija
+└── README.md
 
 > Ova struktura omogućava jednostavno upravljanje komponentama i proširivanje aplikacije po potrebi. Svaka sekcija (npr. `Movie`, `Navbar`) ima svoju mapu za bolje razdvajanje logike i stilova.
 
