@@ -36,7 +36,7 @@ Backend se brine o:
 Tehnologije koje se tu koriste su: Node.js, Python, PHP, Java, te baze podataka kao MySQL, MongoDB i drugi.
 
 --------------------------------------------------------------------------------------------
-## Kako frontend i backend sarađuju?
+# Kako frontend i backend sarađuju?
 
 Frontend šalje zahtjev – npr. “Daj mi korisničke podatke”
 
@@ -44,7 +44,7 @@ Backend provjerava bazu i vraća te podatke
 
 Frontend ih prikazuje korisniku
 
-# Šta je React.js?
+## Šta je React.js?
 
 React je moderna JavaScript biblioteka koju je razvio Facebook.
 
@@ -59,7 +59,7 @@ Komponente možemo više puta koristiti i kombinovati bez da svaki put pišemo s
 React omogućava da aplikaciju gradimo iz tih malih, ponovo iskoristivih dijelova, što je savršeno za velike i kompleksne projekte.
 
 
-# Kreiranje React projekta pomoću Vite-a 
+## Kreiranje React projekta pomoću Vite-a 
 
 
 Kako uopšte pravimo React aplikaciju?
